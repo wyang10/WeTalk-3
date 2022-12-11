@@ -1,0 +1,63 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px 0;
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-item a {
+
+}
+
+
+.reply-box {
+    display: flex;
+    width: 600px;
+}
+
+.reply-box textarea {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.twitter-delbtn {
+    background-color: indianred;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+    background-color: #444444;
+}
+
+.navbar .inner {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .nav-item a {
+    color: white;
+}
+
+.inner .right {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}

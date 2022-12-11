@@ -1,0 +1,45 @@
+.twitter-area {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.twitter-area:focus {
+    transition: border linear .2s, box-shadow linear .5s;
+    -moz-transition: border linear .2s, -moz-box-shadow linear .5s;
+    -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s;
+    outline: none;
+    border-color: rgba(93, 149, 242, .75);
+    box-shadow: 0 0 8px rgba(93, 149, 242, .105);
+    -moz-box-shadow: 0 0 8px rgba(93, 149, 242, .5);
+    -webkit-box-shadow: 0 0 8px rgba(93, 149, 242, 3);
+}
+
+.twitter-postbtn {
+    background-color: pink;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.follower-btn {
+    background-color: lightskyblue;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.follow-btn-small1 {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+.follow-btn-small2 {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+}
+

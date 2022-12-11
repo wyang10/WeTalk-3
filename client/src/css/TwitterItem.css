@@ -1,0 +1,50 @@
+.twitter-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.twitter-item .icon {
+    margin-right: 10px;
+}
+
+.twitter-item .icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.twitter-item .main .nickname {
+    font-size: 18px;
+}
+
+.twitter-item .main .username {
+    font-size: 18px;
+    color: #444444;
+}
+
+.twitter-item .main .date {
+    font-size: 18px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.twitter-item .content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.twitter-item .reply-icon img {
+    width: 18px;
+    height: 18px;
+}
+
+.twitter-item .likes-icon img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.twitter-item .dislikes-icon img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}

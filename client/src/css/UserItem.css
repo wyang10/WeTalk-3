@@ -1,0 +1,23 @@
+.user-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.user-item .icon {
+    margin-right: 10px;
+}
+
+.user-item .icon img {
+    width: 64px;
+    height: 64px;
+}
+
+.user-item .main .nickname {
+    font-size: 18px;
+}
+
+.user-item .main .username {
+    font-size: 18px;
+    color: #444444;
+}
+
