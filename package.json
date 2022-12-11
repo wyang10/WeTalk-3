@@ -1,0 +1,12 @@
+{
+    "name": "monorepo",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces":["client", "server"],
+    "scripts": {
+      "start": "yarn workspace server start",
+      "build": "yarn workspace client install && yarn workspace client build",
+      "install": "yarn workspace client install && yarn workspace server install"
+    }
+  }
+  
